@@ -1,0 +1,15 @@
+{
+  "name": "medistock-ai",
+  "version": "1.0.0",
+  "description": "MediStock AI - Medicine Demand Forecasting and Expiry Risk Prediction System",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

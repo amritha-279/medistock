@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+build/
+*.log
+ml-model/models/*.pkl
+__pycache__/
+*.pyc
+.DS_Store
